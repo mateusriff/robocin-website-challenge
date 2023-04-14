@@ -5,7 +5,7 @@ import { Robot } from "@/assets";
 const Banner = () => {
     return(
         <StyledBanner>
-            <Image src={Robot} alt="Robô" style={{ width: '30vw', height: 'auto' }}/>
+            <Image src={Robot} alt="Robô" style={{ width: '20vw', height: 'auto' }}/>
             <StyledContent>
                 <h2>
                     O <span>RobôCIn</span> é um grupo de Pesquisa e 

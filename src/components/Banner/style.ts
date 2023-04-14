@@ -7,7 +7,7 @@ export const StyledBanner = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5vw;   
+    gap: 2vw;   
 `;
 
 export const StyledContent = styled.div`
@@ -15,7 +15,7 @@ export const StyledContent = styled.div`
     width: 50vw;
     
     h2 {
-        font-size: 2.4vw;
+        font-size: 3.5vw;
         margin-bottom: 10vh;
 
         span {
