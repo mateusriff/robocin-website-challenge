@@ -5,15 +5,16 @@ import { Robot } from "@/assets";
 const Banner = () => {
     return(
         <StyledBanner>
-            <Image src={Robot} alt="Robô" style={{ width: '20vw', height: 'auto' }}/>
+            <Image src={Robot} alt="Robô" style={{ width: '22vw', height: 'auto' }}/>
             <StyledContent>
                 <h2>
-                    O <span>RobôCIn</span> é um grupo de Pesquisa e 
-                    Desenvolvimento do Centro de Informática da UFPE.
+                    O <span>RobôCIn</span> é um grupo de 
+                    Pesquisa e Desenvolvimento em robótica 
+                    do Centro de Informática da UFPE.
                 </h2>
                 <p>
-                    Com robótica, desenvolvemos soluções que
-                    ganham competições internacionais.
+                    Desenvolvemos soluções que ganham 
+                    competições internacionais.
                 </p>
             </StyledContent>
         </StyledBanner>
