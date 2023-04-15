@@ -19,7 +19,9 @@ export const StyledContent = styled.div`
         margin-bottom: 10vh;
 
         span {
-            color: #469C57;
+            background-image: linear-gradient(to right,  #4DC264,   #43E435);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
 
