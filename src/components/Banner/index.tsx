@@ -13,8 +13,9 @@ const Banner = () => {
                     do Centro de Informática da UFPE.
                 </h2>
                 <p>
-                    Desenvolvemos soluções que ganham 
-                    competições internacionais.
+                Desenvolvemos soluções com Inteligência 
+                Artificial, Visão Computacional, Mecânica e Eletrônica 
+                aplicados na robótica.
                 </p>
             </StyledContent>
         </StyledBanner>
