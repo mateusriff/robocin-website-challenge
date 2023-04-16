@@ -5,6 +5,7 @@ import Sponsors from "./Sponsors";
 import Carousel from "./Awards/Carousel";
 import Award from "./Awards/Award";
 import Awards from "./Awards";
+import AboutUs from "./AboutUs";
 
 export {
     Navbar,
@@ -12,4 +13,5 @@ export {
     Activities,
     Sponsors,
     Awards,
+    AboutUs,
 };
