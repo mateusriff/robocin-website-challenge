@@ -1,5 +1,4 @@
 import Slider from 'react-slick';
-import { CarouselWrapper } from './style';
 
 type Props = {
     items: React.ReactNode[];
@@ -19,13 +18,11 @@ const Carousel = ({ items }: Props) => {
     };
   
     return (
-        <CarouselWrapper>
-            <Slider {...settings}>
-                {items.map((item, index) => (
-                <div key={index}>{item}</div>
-                ))}
-            </Slider>
-        </CarouselWrapper>
+        <Slider {...settings}>
+            {items.map((item, index) => (
+            <div key={index}>{item}</div>
+            ))}
+        </Slider>
     );
 };
 
