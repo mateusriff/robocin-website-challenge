@@ -19,7 +19,6 @@ export default function Home() {
       </Head>
       <main className={inter.className}>
         <Navbar/>
-        <Awards/>
         <Banner/>
         <Activities/>
         <AboutUs/>

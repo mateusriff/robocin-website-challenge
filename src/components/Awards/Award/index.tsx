@@ -1,17 +1,22 @@
-import AwardWrapper from "./style";
+import { AwardWrapper, StyledDot } from "./style";
 
 type AwardProps = {
-    title: string;
-    children?: React.ReactNode;
+    title: string,
+    year: string,
+    children?: React.ReactNode,
 }
 
-const Award = ({ title, children }: AwardProps) => {
+const Award = ({ title, year, children }: AwardProps) => {
     return (
         <AwardWrapper>
-            <div>
+            <section>
+                <h2>{year}</h2>
                 <h1>{title}</h1>
                 <p>{children}</p>
-            </div>
+            </section>
+            <StyledDot>
+                <div/>
+            </StyledDot>
         </AwardWrapper>
     );
 };

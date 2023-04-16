@@ -15,6 +15,9 @@ const Carousel = ({ items }: Props) => {
         centerPadding: '0',
         slidesToShow: 1,
         slidesToScroll: 1,
+        vertical: true,
+        swipe: false,
+        pauseOnHover: false,
     };
   
     return (
