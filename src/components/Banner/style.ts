@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledBanner = styled.section`
     padding: 0 12vw;
-    height: 100vh;
+    height: 70vh;
 
     display: flex;
     justify-content: space-between;

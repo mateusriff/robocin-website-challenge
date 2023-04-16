@@ -5,6 +5,7 @@ export const StyledNav = styled.nav`
     height: 12vh;
 
     position: fixed;
+    z-index: 10;
 
     display: flex;
     justify-content: space-between;
