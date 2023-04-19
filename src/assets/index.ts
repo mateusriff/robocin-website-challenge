@@ -7,6 +7,13 @@ import MicrosoftLogo from './sponsors/microsoft-logo.png'
 import MouraLogo from './sponsors/moura-logo.png'
 import VeroliLogo from './sponsors/veroli-logo.png'
 
+import Facebook from './socialMedia/facebook-icon.svg'
+import Instagram from './socialMedia/instagram-icon.svg'
+import Youtube from './socialMedia/youtube-icon.svg'
+import Github from './socialMedia/github-icon.svg'
+import Linkedin from './socialMedia/linkedin-icon.svg'
+import Email from './socialMedia/email-logo.svg'
+
 export {
     RCLogo,
     Robot,
@@ -16,4 +23,11 @@ export {
     MicrosoftLogo,
     MouraLogo,
     VeroliLogo,
+    
+    Facebook, 
+    Instagram, 
+    Youtube, 
+    Github, 
+    Linkedin,
+    Email,
 };

@@ -1,11 +1,14 @@
+import { Montserrat } from 'next/font/google'
 import { AboutUsWrapper, AwardContent } from "./style";
 import Awards from "../Awards";
+
+const montserrat = Montserrat({ weight: '800', subsets: ['latin'] })
 
 const AboutUs = () => {
     return(
         <AboutUsWrapper>
             <AwardContent>
-                <h3>NOSSA HISTÓRIA</h3>
+                <h3 className={montserrat.className}>NOSSA HISTÓRIA</h3>
                 <p>
                     O grupo foi criado em 2015 por 12 estudantes 
                     de Engenharia da Computação com ajuda de dois 

@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Navbar, Banner, Activities, Sponsors, Awards, AboutUs } from '@/components'
+import { Navbar, Banner, Activities, Sponsors, AboutUs, SocialMedia } from '@/components'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +19,7 @@ export default function Home() {
       </Head>
       <main className={inter.className}>
         <Navbar/>
+        <SocialMedia/>
         <Banner/>
         <Activities/>
         <AboutUs/>
