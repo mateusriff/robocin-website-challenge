@@ -7,6 +7,7 @@ import Award from "./Awards/Award";
 import Awards from "./Awards";
 import AboutUs from "./AboutUs";
 import SocialMedia from "./SocialMedia";
+import Members from "./Members";
 
 export {
     Navbar,
@@ -16,4 +17,5 @@ export {
     Awards,
     AboutUs,
     SocialMedia,
+    Members,
 };
