@@ -1,32 +1,41 @@
+import { useEffect, useState } from 'react';
 import MembersWrapper from "./style";
 import MemberCard from "./MemberCard";
+import { getMembers } from '@/sanity/sanityUtils'
 
-const membersList = [
-    {
-        name: "Carlos Pena",
-        profilePicture: "https://robocin.com.br/images/membros/CarlosPena_vsss.jpg",
-        category: "Very Small Size Soccer",
-        github: "https://github.com/mateusriff",
-        linkedin: "https://www.linkedin.com/in/mateus-riff/",
-    },
-    {
-        name: "Cecília Virgínia",
-        profilePicture: "https://robocin.com.br/images/membros/CeciliaVirginia_ssl.jpg",
-        category: "Small Size Soccer",
-    },
-]
+type MemberTypes = {
+    _id: string,
+    createdAt: string,
+    name: string,
+    slug: string,
+    image: string,
+    github: string,
+    linkedin: string,
+}  
 
 const Members = () => {
+    
+    const [members, setMembers] = useState<MemberTypes[]>([]);
+
+    useEffect(() => {
+        const fetchMembers = async () => {
+            const membersList = await getMembers();
+            setMembers(membersList);
+        };
+
+        fetchMembers();
+    }, []);
+    
     return(
         <MembersWrapper>
-            {membersList.map((member, index) => (
+            {members.map((member: MemberTypes) => (
                 <MemberCard 
-                    key={index}
+                    key={member._id}
                     name={member.name}
-                    profilePicture={member.profilePicture}
-                    category={member.category}
+                    profilePicture={member.image}
+                    category="placeholder"
                     github={member.github?.toString()}
-                    linkedin={member.github?.toString()}
+                    linkedin={member.linkedin?.toString()}
                 />
             ))}
         </MembersWrapper>
