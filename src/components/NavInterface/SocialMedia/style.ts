@@ -21,6 +21,6 @@ export const SocialMediaWrapper = styled.div`
 `;
 
 export const StyledImage = styled(Image)`
-    width: 2vw;
+    width: 1.75vw;
     height: auto;
 `; 

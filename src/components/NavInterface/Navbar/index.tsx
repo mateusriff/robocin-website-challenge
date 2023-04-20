@@ -1,5 +1,4 @@
 import { StyledNav, LogoImage } from "./style";
-import Image from "next/image";
 import { RCLogo } from '@/assets'
 
 const Navbar = () => {
