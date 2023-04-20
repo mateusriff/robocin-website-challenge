@@ -13,6 +13,7 @@ export const getMembers = async () => {
             _createdAt,
             name,
             "slug": slug.current,
+            category,
             "image": image.asset->url,
             github,
             linkedin,

@@ -8,6 +8,7 @@ type MemberTypes = {
     createdAt: string,
     name: string,
     slug: string,
+    category: string,
     image: string,
     github: string,
     linkedin: string,
@@ -33,7 +34,7 @@ const Members = () => {
                     key={member._id}
                     name={member.name}
                     profilePicture={member.image}
-                    category="placeholder"
+                    category={member.category}
                     github={member.github?.toString()}
                     linkedin={member.linkedin?.toString()}
                 />

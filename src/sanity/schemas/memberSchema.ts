@@ -5,7 +5,7 @@ const memberSchema = {
     fields: [
         {
             name: 'name',
-            tilte: 'Name',
+            title: 'Name',
             type: 'string',
         },
         {
@@ -13,6 +13,11 @@ const memberSchema = {
             title: "Slug",
             type: 'slug',
             options: { source: 'name' },
+        },
+        {
+            name: 'category',
+            title: 'Category',
+            type: 'string',
         },
         {
             name: 'image',
