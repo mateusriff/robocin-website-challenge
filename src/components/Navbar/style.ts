@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const StyledNav = styled.nav`
     width: 100%;
@@ -20,6 +21,7 @@ export const StyledNav = styled.nav`
         gap: 3vw;
 
         a {
+            font-size: 1.1vw;
             transition: 0.2s ease-in-out;
 
             &:hover{
@@ -27,4 +29,9 @@ export const StyledNav = styled.nav`
             }
         }
     }
+`;
+
+export const LogoImage = styled(Image)`
+    width: 10vw;
+    height: auto;
 `;
