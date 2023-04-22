@@ -6,7 +6,6 @@ export default function MembersPage() {
     <>
       <NavInterface />
       <Members />
-      <Sponsors />
     </>
   )
 }
