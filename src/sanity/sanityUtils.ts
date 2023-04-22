@@ -17,6 +17,6 @@ export const getMembers = async () => {
             "image": image.asset->url,
             github,
             linkedin,
-        }`
+        } | order(lower(name))`
     )
 };
