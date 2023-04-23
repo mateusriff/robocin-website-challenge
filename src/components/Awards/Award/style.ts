@@ -6,32 +6,40 @@ export const AwardWrapper = styled.div`
     justify-content: end;
     align-items: center;
     gap: 1vw;
-    //box-shadow: inset 0px 50px 20px -10px white, 0px -50px 20px -10px white;
 
-    
-    section {
-        text-align: right;
-        h1 {
-            width: 20vw;
-            font-size: 1.5vw;
-            padding-bottom: 1vh;
-        }
+    @media (max-width: 768px) {
+        height: 20vh;
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+`;
+
+export const StyledAward = styled.div`
+    text-align: right;
+    width: 20vw;
+    h1 {
+        font-size: var(--fs-m);
+        padding-bottom: 1vh;
+    }
         
-        h2 {
-            color: gray;
-            padding-bottom: 2vh;
-        }
+    h2 {
+        color: gray;
+        padding-bottom: 2vh;
+    }
 
-        p {
-            width: 20vw;
-            font-size: 0.9vw;
-        }
+    p {
+        font-size: var(--fs-m);
+    }
+
+    @media (max-width: 768px) {
+        text-align: left;
+        width: 70vw;
     }
 `;
 
 export const StyledDot = styled.div`
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     border: solid #4DC264;
     background-color: white;
@@ -42,9 +50,13 @@ export const StyledDot = styled.div`
     align-items: center;
 
     div {
-        width: 8px;
-        height: 50.5vh;
+        width: 4px;
+        height: 55vh;
         background-color: #4DC264;
         z-index: -1;
+
+        @media (max-width: 768px) {
+            height: 22vh;
+        }
     }
 `;

@@ -1,5 +1,5 @@
 import { Montserrat } from 'next/font/google'
-import { AboutUsWrapper, AwardContent } from "./style";
+import { AboutUsWrapper, StyledContent, StyledParagraph } from "./style";
 import Awards from "../Awards";
 
 const montserrat = Montserrat({ weight: '800', subsets: ['latin'] })
@@ -7,9 +7,9 @@ const montserrat = Montserrat({ weight: '800', subsets: ['latin'] })
 const AboutUs = () => {
     return(
         <AboutUsWrapper>
-            <AwardContent>
+            <StyledContent>
                 <h3 className={montserrat.className}>NOSSA HISTÓRIA</h3>
-                <p>
+                <StyledParagraph>
                     O grupo foi criado em 2015 por 12 estudantes 
                     de Engenharia da Computação com ajuda de dois 
                     professores, Edna Barros e Hansenclever Bassani.
@@ -19,8 +19,8 @@ const AboutUs = () => {
                     time para desenvolver soluções utilizando Inteligência 
                     Artificial, Visão Computacional, Mecânica e Eletrônica 
                     aplicados na robótica.
-                </p>
-            </AwardContent>
+                </StyledParagraph>
+            </StyledContent>
             <Awards/>
         </AboutUsWrapper>
     );

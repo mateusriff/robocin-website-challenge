@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const AboutUsWrapper = styled.div`
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2vw;
-    padding: 0 12vw;
+    padding: 6vh 12vw;
     
     h3 {
         color: #4DC264;
@@ -18,14 +18,35 @@ export const AboutUsWrapper = styled.div`
         text-decoration: underline;
     }
 
-    p {
-        font-size: var(--fs-m);
-        width: 30vw;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 5vh;
+
+        h3 {
+            writing-mode: horizontal-tb;
+            text-orientation: upright;
+            transform: rotate(0deg);
+            text-decoration: underline;
+            margin-bottom: 2vh;
+        }
     }
 `;
 
-export const AwardContent = styled.div`
+export const StyledParagraph = styled.p`
+    width: 30vw;
+    font-size: var(--fs-m);
+
+    @media (max-width: 768px) {
+        width: 80vw;
+    }
+`;
+
+export const StyledContent = styled.div`
     display: flex;
     align-items: center;
     gap: 1vw;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;

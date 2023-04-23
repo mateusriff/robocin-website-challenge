@@ -1,4 +1,4 @@
-import { AwardWrapper, StyledDot } from "./style";
+import { AwardWrapper, StyledAward, StyledDot } from "./style";
 
 type AwardProps = {
     title: string,
@@ -9,11 +9,11 @@ type AwardProps = {
 const Award = ({ title, year, children }: AwardProps) => {
     return (
         <AwardWrapper>
-            <section>
+            <StyledAward>
                 <h2>{year}</h2>
                 <h1>{title}</h1>
                 <p>{children}</p>
-            </section>
+            </StyledAward>
             <StyledDot>
                 <div/>
             </StyledDot>
