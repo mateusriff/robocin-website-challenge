@@ -19,6 +19,8 @@ import SSL from './categories/ssl2.jpg'
 import VSS from './categories/vss1.jpg'
 import Simulacao2D from './categories/2d.jpg'
 
+import Paper from './paper-image-icon.png'
+
 export {
     RCLogo,
     Robot,
@@ -40,4 +42,6 @@ export {
     SSL,
     VSS,
     Simulacao2D,
+
+    Paper,
 };
