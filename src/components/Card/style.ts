@@ -16,6 +16,7 @@ export const CardWrapper = styled.a`
     transition: 0.3s ease-in-out;
 
     p {
+        width: 15vw;
         font-size: 1.2vw;
         color: #626262;
         text-align: center;
