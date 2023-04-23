@@ -5,6 +5,7 @@ import Sponsors from "./Sponsors";
 import Awards from "./Awards";
 import AboutUs from "./AboutUs";
 import Members from "./Members";
+import OurCalendar from "./OurCalendar";
 
 export {
     NavInterface,
@@ -14,4 +15,5 @@ export {
     Awards,
     AboutUs,
     Members,
+    OurCalendar,
 };
