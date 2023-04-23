@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 export const StyledBanner = styled.section`
@@ -8,6 +9,19 @@ export const StyledBanner = styled.section`
     justify-content: space-between;
     align-items: center;
     gap: 2vw;   
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+`;
+
+export const StyledImage = styled(Image)`
+    width: 80vw; 
+    height: auto;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
 `;
 
 export const StyledContent = styled.div`
@@ -27,5 +41,14 @@ export const StyledContent = styled.div`
 
     p {
         font-size: var(--fs-ml);
+    }
+
+    @media (max-width: 600px) {
+        text-align: left;
+        width: 80vw;
+
+        h2 {
+            margin-bottom: 4vh;
+        }
     }
 `;

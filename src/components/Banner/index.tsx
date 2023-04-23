@@ -1,11 +1,11 @@
 import Image from "next/image";
-import {StyledBanner, StyledContent} from "./style";
+import {StyledBanner, StyledImage, StyledContent} from "./style";
 import { Robot } from "@/assets";
 
 const Banner = () => {
     return(
         <StyledBanner>
-            <Image src={Robot} alt="Robô" style={{ width: '22vw', height: 'auto' }}/>
+            <StyledImage src={Robot} alt="Robô"/>
             <StyledContent>
                 <h2>
                     O <span>RobôCIn</span> é um grupo de 
