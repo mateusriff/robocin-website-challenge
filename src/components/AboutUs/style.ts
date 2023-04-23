@@ -10,7 +10,7 @@ export const AboutUsWrapper = styled.div`
     
     h3 {
         color: #4DC264;
-        font-size: 2vw;
+        font-size: var(--fs-l);
         text-transform: uppercase;
         writing-mode: vertical-lr;
         text-orientation: mixed;
@@ -19,7 +19,7 @@ export const AboutUsWrapper = styled.div`
     }
 
     p {
-        font-size: 1.3vw;
+        font-size: var(--fs-m);
         width: 30vw;
     }
 `;

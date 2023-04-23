@@ -17,7 +17,7 @@ export const CardWrapper = styled.a`
 
     p {
         width: 15vw;
-        font-size: 1.2vw;
+        font-size: var(--fs-m);
         color: #626262;
         text-align: center;
     }
@@ -34,7 +34,7 @@ export const CardWrapper = styled.a`
 `;
 
 export const CardTitle = styled.h2`
-  font-size: 1.5vw;
+  font-size: var(--fs-m);
   font-weight: 600;
   margin-bottom: 5vh;
   transition: 0.3s ease-in-out;

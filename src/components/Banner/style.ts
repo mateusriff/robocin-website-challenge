@@ -15,7 +15,7 @@ export const StyledContent = styled.div`
     width: 50vw;
     
     h2 {
-        font-size: 3.2vw;
+        font-size: var(--fs-xl);
         margin-bottom: 10vh;
 
         span {
@@ -26,6 +26,6 @@ export const StyledContent = styled.div`
     }
 
     p {
-        font-size: 1.5vw;
+        font-size: var(--fs-ml);
     }
 `;
