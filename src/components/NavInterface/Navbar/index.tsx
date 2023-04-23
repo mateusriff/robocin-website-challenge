@@ -10,7 +10,7 @@ const Navbar = () => {
             <div>
                 <a href="/">Início</a>
                 <a href="/membros">Membros</a>
-                <a href="#">Categorias</a>
+                <a href="/categorias">Categorias</a>
                 <a href="#">Pesquisa</a>
             </div>
         </StyledNav>
