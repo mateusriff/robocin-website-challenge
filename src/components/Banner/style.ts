@@ -2,25 +2,25 @@ import Image from "next/image";
 import styled from "styled-components";
 
 export const StyledBanner = styled.section`
-    padding: 12vh 12vw 0;
-    height: 100vh;
+    padding: 12vh 12vw 6vh;
+    min-height: 100vh;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2vw;   
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         flex-direction: column;
     }
 `;
 
 export const StyledImage = styled(Image)`
-    width: 80vw; 
+    width: 22vw; 
     height: auto;
 
-    @media (max-width: 600px) {
-        flex-direction: column;
+    @media (max-width: 768px) {
+        width: 80vw;
     }
 `;
 
@@ -43,7 +43,7 @@ export const StyledContent = styled.div`
         font-size: var(--fs-ml);
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         text-align: left;
         width: 80vw;
 
