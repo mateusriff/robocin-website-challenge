@@ -14,6 +14,11 @@ import Github from './socialMedia/github-icon.svg'
 import Linkedin from './socialMedia/linkedin-icon.svg'
 import Email from './socialMedia/email-logo.svg'
 
+import SeguidorDeLinha from './categories/seguidor.jpg'
+import SSL from './categories/ssl2.jpg'
+import VSS from './categories/vss1.jpg'
+import Simulacao2D from './categories/2d.jpg'
+
 export {
     RCLogo,
     Robot,
@@ -30,4 +35,9 @@ export {
     Github, 
     Linkedin,
     Email,
+
+    SeguidorDeLinha,
+    SSL,
+    VSS,
+    Simulacao2D,
 };

@@ -6,6 +6,7 @@ import Awards from "./Awards";
 import AboutUs from "./AboutUs";
 import Members from "./Members";
 import OurCalendar from "./OurCalendar";
+import CategoryCard from "./CategoryCard";
 
 export {
     NavInterface,
@@ -16,4 +17,5 @@ export {
     AboutUs,
     Members,
     OurCalendar,
+    CategoryCard,
 };
