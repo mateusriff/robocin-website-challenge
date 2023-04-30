@@ -20,6 +20,7 @@ export const StyledAward = styled.div`
     h1 {
         font-size: var(--fs-m);
         padding-bottom: 1vh;
+        text-transform: uppercase;
     }
         
     h2 {
