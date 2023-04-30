@@ -13,20 +13,20 @@ export const CardWrapper = styled.a`
 
     p {
         width: 45vw;
-        font-size: 1vw;
+        font-size: var(--fs-ms);
         color: #626262;
     }
 `;
 
 export const CardTitle = styled.h2`
-  font-size: 2vw;
+  font-size: var(--fs-l);
   font-weight: 600;
   margin-bottom: 5vh;
   transition: 0.3s ease-in-out;
   color: #4DC264;
 
   p {
-    margin-top: 1vh;
+    margin-top: var(--fs-ml);
     color: gray;
   }
 `;
