@@ -3,10 +3,9 @@ import Image from "next/image";
 
 export const MemberCardWrapper = styled.div`
     width: 16vw;
-    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.03);
     border-radius: 25px;
-    padding: 1vw;
-    background-color: white;
+    margin: 1vw;
+    font-size: var(--fs-ms);
 
     display: flex;
     flex-direction: column;
