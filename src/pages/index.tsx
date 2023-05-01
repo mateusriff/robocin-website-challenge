@@ -1,6 +1,6 @@
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { NavInterface, Banner, Activities, Sponsors, AboutUs, OurCalendar } from '@/components'
+import { NavInterface, Banner, Activities, Sponsors, AboutUs, OurCalendar, Footer } from '@/components'
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
         <AboutUs />
         <OurCalendar />
         <Sponsors />
+        <Footer />
       </>
   )
 }

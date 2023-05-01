@@ -1,4 +1,4 @@
-import { NavInterface, Sponsors, PaperCard } from '@/components'
+import { NavInterface, Sponsors, PaperCard, Footer } from '@/components'
 import { PageWrapper, PapersWrapper } from './style'
 import researchData from './data'
 
@@ -22,6 +22,7 @@ export default function ResearchPage() {
         </PapersWrapper>
       </PageWrapper>
       <Sponsors />
+      <Footer />
     </>
   )
 }

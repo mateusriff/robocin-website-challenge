@@ -1,4 +1,4 @@
-import { NavInterface, Members, Sponsors } from '@/components'
+import { NavInterface, Members, Sponsors, Footer } from '@/components'
 import MembrosPageWrapper from './style'
 
 export default function MembersPage() { 
@@ -8,7 +8,8 @@ export default function MembersPage() {
         <MembrosPageWrapper>
             <Members />
         </MembrosPageWrapper>
-        <Sponsors/>
+        <Sponsors />
+        <Footer />
     </>
     )
   }
