@@ -101,6 +101,7 @@ body {
 }
 
 body {
+  background-color: white;
   color: rgb(var(--foreground-rgb));
 }
 
