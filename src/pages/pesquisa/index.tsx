@@ -1,6 +1,6 @@
 import { NavInterface, Sponsors, PaperCard, Footer } from '@/components'
 import { PageWrapper, PapersWrapper } from './style'
-import { researchData } from './data'
+import researchData from '@/data/researchData'
 
 export default function ResearchPage() {
   return (

@@ -1,6 +1,6 @@
 import { SeguidorDeLinha, SSL, VSS, Simulacao2D } from "@/assets";
 
-export const categoriesData = [
+const categoriesData = [
     {
       title: "Seguidor de Linha",
       competition: "IRON CUP",
@@ -26,3 +26,5 @@ export const categoriesData = [
       image: VSS
     },
 ];
+
+export default categoriesData;
