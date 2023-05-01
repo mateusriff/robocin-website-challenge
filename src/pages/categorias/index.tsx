@@ -8,8 +8,9 @@ export default function CategoriesPage() {
     <>
       <NavInterface />
       <CategoriesWrapper>
-        {categoriesData.map((category) => (
+        {categoriesData.map((category, index) => (
           <CategoryCard 
+          key={index}
           title={category.title}
           competition={category.competition}
           description={category.description}

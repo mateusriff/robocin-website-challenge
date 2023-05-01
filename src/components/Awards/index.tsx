@@ -4,8 +4,8 @@ import Carousel from "./Carousel";
 import awardsList from "./data";
 
 const Awards = () => {
-    const items = awardsList.map((award) => (
-        <Award title={award.title} year={award.year}>
+    const items = awardsList.map((award, index) => (
+        <Award key={index} title={award.title} year={award.year}>
             {award.description}
         </Award>
     ));

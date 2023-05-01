@@ -16,8 +16,8 @@ const Calendar = () => {
         <CalendarWrapper>
             <h2>2023</h2>
             <Timeline>
-                {eventList.map((event) => ( 
-                    <StyledEvent>                    
+                {eventList.map((event, index) => ( 
+                    <StyledEvent key={index}>                    
                         <h2>{event.month}</h2>
                         <StyledDot/>
                         <p>{event.event}</p>
