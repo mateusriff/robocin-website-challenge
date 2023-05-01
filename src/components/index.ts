@@ -7,8 +7,8 @@ import AboutUs from "./AboutUs";
 import Members from "./Members";
 import OurCalendar from "./OurCalendar";
 import CategoryCard from "./CategoryCard";
-import PaperCard from "./PaperCard";
 import Footer from "./Footer";
+import Research from "./Research";
 
 export {
     NavInterface,
@@ -20,6 +20,6 @@ export {
     Members,
     OurCalendar,
     CategoryCard,
-    PaperCard,
     Footer,
+    Research,
 };

@@ -1,26 +1,10 @@
-import { NavInterface, Sponsors, PaperCard, Footer } from '@/components'
-import { PageWrapper, PapersWrapper } from './style'
-import researchData from '@/data/researchData'
+import { NavInterface, Research, Sponsors, Footer } from '@/components'
 
 export default function ResearchPage() {
   return (
     <>
       <NavInterface />
-      <PageWrapper>
-
-        <PapersWrapper>
-            {researchData.map(({ year, papers }) => (
-            <PapersWrapper key={year}>
-                <h1>{year}</h1>
-                <div>
-                {papers.map(({ title, link }) => (
-                    <PaperCard key={title} title={title} link={link} />
-                ))}
-                </div>
-            </PapersWrapper>
-            ))}
-        </PapersWrapper>
-      </PageWrapper>
+      <Research />
       <Sponsors />
       <Footer />
     </>
