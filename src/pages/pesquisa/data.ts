@@ -1,4 +1,4 @@
-const researchData = [  
+export const researchData = [  
   {    
     year: "2020",    
     papers: [      
@@ -97,5 +97,3 @@ const researchData = [
     ],
   },
 ];
-
-export default researchData;

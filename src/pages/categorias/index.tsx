@@ -1,6 +1,6 @@
 import { NavInterface, Sponsors, CategoryCard, Footer } from '@/components'
 import CategoriesWrapper from './style'
-import categoriesData from './data'
+import { categoriesData } from './data'
 
 export default function CategoriesPage() {
   

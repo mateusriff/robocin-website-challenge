@@ -1,4 +1,4 @@
-const awardsList = [
+export const awardsList = [
     {
         title: "Campeão Mundial em SSL",
         year: "2022",
@@ -25,5 +25,3 @@ const awardsList = [
         description: "Primeiro lugar em três campeonatos e primeiro lugar em um desafio técnico internacional",
     },
 ];
-
-export default awardsList;

@@ -1,7 +1,7 @@
 import AwardsWrapper from "./style";
 import Award from "./Award";
 import Carousel from "./Carousel";
-import awardsList from "./data";
+import { awardsList } from "./data";
 
 const Awards = () => {
     const items = awardsList.map((award, index) => (
