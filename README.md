@@ -1,38 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Overview
 
-## Getting Started
+This project is my submission for RobôCIn's Front-end challenge. This is a Single-Page Application that addresses a few issues of RobôCIn's current website. The application is built using **React with the Next 13 framework**.
 
-First, run the development server:
+## The Challenge
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+RobôCIn is a Research & Development group in the field of robotics from the Federal University of Pernambuco, Brazil. Their current website has some flaws, which make it difficult to maintain and update. The goal of this challenge was to identify these issues and create a new website that solves them.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## The Worst Offenders
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- The current website is built using HTML, CSS, and JavaScript without modern front-end libraries like React. This has led to multiple page files with hundreds of lines of HTML code each, making it difficult to maintain and update and negatively impacting its performance. 
+- The content of the website is either hard-coded or stored in JSON files within the website itself. This makes updating content difficult and time-consuming, as it requires direct modification of the files. 
+- A few sections of the website are redundant or misplaced. For example, the "Information" section of the home page has the same content as the navigation bar. Additionally, there is a separate page for "Contact," but it would be more effective to have this information on the home page.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## How My Submission Solves These Issues
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- The new website is built using React and Next 13, providing a modular and scalable structure that makes it easier to maintain and update the codebase. React also allows for efficient management of the application's state, making it easier to keep track of changes. With server-side rendering, these tools also make the website's performance much better.
+- The website uses Sanity.io as its Content Management System. Sanity is a headless CMS that provides an easy-to-use interface for managing website content. This allows the website's content to be updated easily, without requiring direct modification of the codebase. Additionally, Sanity provides a flexible and scalable solution, allowing for easy expansion of the website's content in the future.
+- The website's sections have been overhauled and reimagined with a new, modern, and minimalist design. This improves the website's usability and aesthetics, making it more accessible to a wider audience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Conclusion
 
-## Learn More
+In conclusion, this project provides an efficient and modern solution to the challenges faced by RobôCIn's current website. The use of modern front-end libraries like React, along with a headless CMS like Sanity, allows for easy maintenance and management of the website's codebase and content. Additionally, the redesign of the website's sections provides a more visually appealing and accessible user experience.
 
-To learn more about Next.js, take a look at the following resources:
+### `Notes`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Sanity Studio's page can be accessed via the `/admin` path. It might take about a minute to load, so don't worry if it takes a while. Mind that I'm the only one with permition to access and manage the studio. So although you can access the studio's page, you won't be able to see or manage it. 
+- Sanity was only used to manage the content of the "Membros" page because I thought that was enough to showcase how it could solve the content-related issues of the current website. The rest of the content is either hard-coded or stored in JavaScript objects (which work just like JSONS), but this could be easily changed and any content could be fetched from Sanity with a few tweaks. 
