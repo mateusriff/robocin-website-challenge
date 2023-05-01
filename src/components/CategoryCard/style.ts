@@ -4,6 +4,9 @@ import Image from 'next/image';
 export const CardWrapper = styled.a`
     height: 50vh;
 
+    box-shadow: 0px 5px 25px 10px rgba(0, 0, 0, 0.05);
+    padding: 2vw;
+    border-radius: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
