@@ -15,7 +15,7 @@ RobôCIn is a Research & Development group in the field of robotics from the Fed
 ### How My Submission Solves These Issues
 
 - The new website is built using React and Next 13, providing a modular and scalable structure that makes it easier to maintain and update the codebase. React also allows for efficient management of the application's state, making it easier to keep track of changes. With server-side rendering, these tools also make the website's performance much better.
-- The website uses Sanity.io as its Content Management System. Sanity is a headless CMS that provides an easy-to-use interface for managing website content. This allows the website's content to be updated easily, without requiring direct modification of the codebase. Additionally, Sanity provides a flexible and scalable solution, allowing for easy expansion of the website's content in the future.
+- The website uses Sanity.io as its Content Management System. Sanity is a headless CMS that provides an easy-to-use interface for managing website content. This allows the website's content to be updated easily, without requiring direct modification of the codebase. Additionally, Sanity provides a flexible and scalable solution, allowing for easy expansion of the website's content in the future. One of the best things about it, to me, is that the content of the website can be managed in the site itself by just accessing Sanity studio's page via the `/admin` path and (if you have the permitions) editing the content.
 - The website's sections have been overhauled and reimagined with a new, modern, and minimalist design. This improves the website's usability and aesthetics, making it more accessible to a wider audience. To grant more flexibility to the design, I used the Styled Components library instead of Bootstrap. 
 
 # Conclusion
@@ -24,5 +24,5 @@ In conclusion, this project provides an efficient and modern solution to the cha
 
 ### `Notes`
 
-- Sanity Studio's page can be accessed via the `/admin` path. It might take about a minute to load, so don't worry if it takes a while. Mind that I'm the only one with permition to access and manage the studio. So although you can access the studio's page, you won't be able to see or manage it. 
+- It might take about a minute to load to load Sanity studio's page, that's normal. Mind that I'm the only one with permition to access and manage the studio. So although you can access the studio's page, you won't be able to see or manage it. 
 - Sanity was only used to manage the content of the "Membros" page because I thought that was enough to showcase how it could solve the content-related issues of the current website. The rest of the content is either hard-coded or stored in JavaScript objects (which work just like JSONS), but this could be easily changed and any content could be fetched from Sanity with a few tweaks. 
