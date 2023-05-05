@@ -24,5 +24,6 @@ In conclusion, this project provides an efficient and modern solution to the cha
 
 ### `Notes`
 
-- It might take about a minute to load to load Sanity studio's page, that's normal. Mind that I'm the only one with permition to access and manage the studio. So although you can access the studio's page, you won't be able to see or manage it. 
-- Sanity was only used to manage the content of the "Membros" page because I thought that was enough to showcase how it could solve the content-related issues of the current website. The rest of the content is either hard-coded or stored in JavaScript objects (which work just like JSONS), but this could be easily changed and any content could be fetched from Sanity with a few tweaks. 
+- The website is not responsive to mobile screens
+- I'm the only one with permition to access and manage the studio. So although you can access the studio's page, you won't be able to see or manage it. 
+- Sanity was only used to manage the content of the "Membros" page. That's was enough to showcase how it could solve the content-related issues of the current website. The rest of the content is either hard-coded or stored in JavaScript objects (which work just like JSONS). Any content could be fetched from Sanity with a few tweaks, though. 
