@@ -30,12 +30,11 @@ export const StyledContent = styled.div`
     
     h2 {
         font-size: var(--fs-xl);
+        font-weight: 900;
         margin-bottom: 10vh;
 
         span {
-            background-image: linear-gradient(to right,  #4DC264,   #43E435);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #43E435;
         }
     }
 
